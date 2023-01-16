@@ -1,0 +1,85 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Console;
+
+namespace JanuaryTraining
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+// задание на создание прямоугольника
+
+            Write("Введите высоту прямоугльника:");
+            int height = int.Parse(ReadLine());
+
+            Write("Введите ширину прямоугольника:");
+            int width = int.Parse(ReadLine());
+
+            for (int l = 0; l < height; l++)
+            {
+                for (int s = 0; s < width; s++)
+                {
+                    Write("#");
+                }
+                WriteLine();
+            }
+         }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
